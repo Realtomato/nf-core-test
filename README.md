@@ -19,7 +19,8 @@
             samplename, fastq_1, fastq2    
             
           
-      samplesheet.csv具体可见 ${projectDir}/assets/testdata/samplesheet.csv/, ${projectDir}是nextflow的主脚本所在路径，即./nf-core-test/
+      samplesheet.csv具体可见${projectDir}/assets/testdata/samplesheet.csv/, ${projectDir}是nextflow的主脚本所在路径，即./nf-core-test/
+      
       
 
       --bwa_idxbase <bwa_idxbase>             bwa比对的参考基因组所在文件夹路径, default: ${projectDir}/assets/testdata/ref/
