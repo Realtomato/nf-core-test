@@ -14,9 +14,11 @@
             
    4. 确认运行Nextflow流程的参数：
    
-      --input <samplesheet.csv>               记录样本名和对应fastq路径的csv文件(单端测序的样本只需录入样本名和fastq_1，详细可见${projectDir}/assets/testdata/samplesheet.csv/, ${projectDir}是nextflow的主脚本所在路径，即./nf-core-test/)，格式如下：
+      --input <samplesheet.csv>               记录样本名和对应fastq路径的csv文件(单端测序的样本只需录入样本名和fastq_1)，格式如下：
       
             samplename, fastq_1, fastq2    
+            
+          详细可见${projectDir}/assets/testdata/samplesheet.csv/, ${projectDir}是nextflow的主脚本所在路径，即./nf-core-test/
 
       --bwa_idxbase <bwa_idxbase>             bwa比对的参考基因组所在文件夹路径, default: ${projectDir}/assets/testdata/ref/
 
