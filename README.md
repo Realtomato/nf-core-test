@@ -11,7 +11,7 @@
       
             samplename, fastq_1, fastq2    
 
-      --bwa_idxbase <bwa_idxbase>  bwa比对的参考基因组所在路径, default:"${projectDir}/assets/testdata/ref/"
+      --bwa_idxbase <bwa_idxbase>  bwa比对的参考基因组所在文件夹路径, default:"${projectDir}/assets/testdata/ref/"
 
       --primer_bed <primer.bed>  ivar trim 需要的primer.bed文件
 
