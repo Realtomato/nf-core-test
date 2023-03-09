@@ -11,6 +11,12 @@
             },
             "multiqc": {
                 "git_sha": "e745e167c1020928ef20ea1397b6b4d230681b4d"
+            },
+            "nf-core/bwa/mem": {
+                "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c"
+            },
+            "nf-core/ivar/trim": {
+                "git_sha": "c8e35eb2055c099720a75538d1b8adb3fb5a464c"
             }
         }
     }

@@ -11,8 +11,9 @@ process FASTQC {
     tuple val(meta), path(reads)
 
     output:
-    tuple val(meta), path("*.html"), emit: html
-    tuple val(meta), path("*.zip") , emit: zip
+    // tuple val(meta), path("*.html"), emit: html
+    // tuple val(meta), path("*.zip") , emit: zip
+    tuple val(meta), path("${meta.id}_fastqc/Images/per_base_quality.png") , emit: png
     path  "versions.yml"           , emit: versions
 
     when:
